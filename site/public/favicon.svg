@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g stroke="#F0E31D" stroke-width="4" stroke-linecap="round"><path d="M14 4v8M4 14h8M6 6l6 6M22 6l-4 6"/></g>
+  <circle cx="34" cy="34" r="25" fill="#7C99E6"/>
+  <circle cx="34" cy="33" r="21" fill="#2D5EC4"/>
+  <path d="M2 50 Q20 42 34 48 T62 44 V58 H2Z" fill="#96DB6A"/>
+  <text x="34" y="40" text-anchor="middle" font-family="Baloo 2, Arial Rounded MT Bold, sans-serif" font-weight="800" font-size="22" fill="#E59D2A" stroke="#6A479E" stroke-width="1.2">T</text>
+</svg>

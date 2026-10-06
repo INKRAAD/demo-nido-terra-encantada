@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "@fontsource-variable/baloo-2";
+@import "@fontsource-variable/nunito";
+
+@theme {
+  --color-terra: #2D5EC4;
+  --color-cesped: #96DB6A;
+  --color-sol: #F0E31D;
+  --color-naranja: #E59D2A;
+  --color-morado: #6A479E;
+  --color-brote: #D0E9B1;
+  --color-tinta: #1C2559;
+  --color-crema: #FFFBEA;
+  --color-anillo: #7C99E6;
+  --font-display: "Baloo 2 Variable", "Baloo 2", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Nunito Variable", "Nunito", ui-rounded, system-ui, sans-serif;
+  --ease-rebote: cubic-bezier(.34, 1.56, .64, 1);
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+  body {
+    @apply bg-crema text-tinta font-sans antialiased;
+    overflow-x: clip;
+  }
+  h1, h2, h3, h4 { @apply font-display; letter-spacing: -0.01em; }
+  ::selection { background: var(--color-sol); color: var(--color-tinta); }
+  :focus-visible {
+    outline: 3px solid var(--color-morado);
+    outline-offset: 3px;
+    border-radius: 10px;
+  }
+  img { max-width: 100%; }
+}
+
+@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html.has-cursor, html.has-cursor a, html.has-cursor button { cursor: none; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-display text-lg font-bold leading-none transition-[transform,box-shadow,background-color] duration-300;
+    box-shadow: 0 6px 0 rgba(28, 37, 89, .18);
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 9px 0 rgba(28, 37, 89, .18); }
+  .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(28, 37, 89, .18); }
+  .btn-primary { @apply bg-cesped text-tinta; }
+  .btn-terra { @apply bg-terra text-white; }
+  .btn-ghost { @apply bg-white/85 text-terra backdrop-blur; }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-extrabold uppercase tracking-wider;
+  }
+  .section-title { @apply font-display font-extrabold leading-[0.95] text-terra; font-size: clamp(2.4rem, 5.5vw, 4.6rem); }
+  .eyebrow { @apply font-display text-lg font-bold text-morado; }
+  .wobbly { border-radius: 58% 42% 55% 45% / 45% 55% 45% 55%; }
+  .blob-1 { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; }
+  .blob-2 { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+  .split-char { display: inline-block; will-change: transform; }
+  .split-word { display: inline-block; white-space: nowrap; }
+}
+
+/* Marquesina */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee-track { animation: marquee 32s linear infinite; }
+
+/* Burbujas flotando suaves */
+@keyframes floaty { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-14px) rotate(2deg); } }
+.floaty { animation: floaty 6s ease-in-out infinite; }
+
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.spin-slow { animation: spin-slow 18s linear infinite; }
+
+@keyframes wing { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.35); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.grain::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Resaltado tipo plumón detrás de palabras clave (como el trazo del logo) */
+.hl { z-index: 0; }
+.hl::before {
+  content: ""; position: absolute; left: -0.06em; right: 0.12em; bottom: 0.08em; height: 0.36em; z-index: -1;
+  border-radius: 999px 600px 800px 500px; transform: rotate(-1.5deg);
+}
+.hl-naranja::before { background: #E59D2A; opacity: .55; }
+.hl-cesped::before { background: #96DB6A; opacity: .8; }
+.hl-sol::before { background: #F0E31D; opacity: .9; }

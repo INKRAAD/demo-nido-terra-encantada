@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es-PE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Nido Terra Encantada · Estimulación temprana, cuna e inicial en La Molina</title>
+    <meta name="description" content="Nido Terra Encantada en La Molina: estimulación temprana, pre-escolar 2 años, inicial 3, 4 y 5 años, guardería, inglés, talleres y terapias psicopedagógicas. Un espacio para aprender, crecer y divertirse. Matrícula 2026 abierta." />
+    <meta name="theme-color" content="#2D5EC4" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://terraencantada.pe/" />
+    <!-- Dominio de ejemplo (terraencantada.pe): CONTENIDO DE EJEMPLO, el nido aún no tiene dominio propio -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_PE" />
+    <meta property="og:site_name" content="Nido Terra Encantada" />
+    <meta property="og:title" content="Nido Terra Encantada · La Molina" />
+    <meta property="og:description" content="Un espacio para aprender, crecer y divertirse. Estimulación temprana, cuna, inicial 3 a 5 años y terapias. Matrícula 2026." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nido Terra Encantada · La Molina" />
+    <meta name="twitter:description" content="Un espacio para aprender, crecer y divertirse. Matrícula 2026." />
+    <meta name="twitter:image" content="/og-image.jpg" />
+    <link rel="preload" href="/logo-terra-encantada.svg" as="image" type="image/svg+xml" />
+    <!--
+      schema.org: Preschool (EducationalOrganization) + LocalBusiness.
+      ⚠️ DATO A CONFIRMAR: el teléfono vigente (ver src/data/brand.ts).
+      No se incluye aggregateRating porque 4.9★/31 reseñas no está verificado en vivo
+      (y Google no admite reseñas autopublicadas en LocalBusiness).
+    -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Preschool", "LocalBusiness"],
+      "@id": "https://terraencantada.pe/#nido",
+      "name": "Nido Terra Encantada",
+      "alternateName": "Terra Encantada | La Molina",
+      "description": "Centro de desarrollo integral del niño en la edad temprana: estimulación temprana, pre-escolar 2 años, inicial 3, 4 y 5 años, guardería, inglés intensivo, talleres y terapias psicopedagógicas.",
+      "url": "https://terraencantada.pe/",
+      "logo": "https://terraencantada.pe/logo-terra-encantada.svg",
+      "image": "https://terraencantada.pe/og-image.jpg",
+      "email": "terraencantada1@gmail.com",
+      "telephone": "+51 993 726 482",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Javier Prado Este 5977",
+        "addressLocality": "La Molina",
+        "addressRegion": "Lima",
+        "addressCountry": "PE"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": -12.070647, "longitude": -76.955672 },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }],
+      "areaServed": "La Molina, Lima",
+      "sameAs": ["https://www.facebook.com/nido.terra.encantada/"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Programas",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estimulación temprana" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pre-escolar 2 años" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inicial 3, 4 y 5 años" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Guardería" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inglés intensivo" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Talleres de karate, psicomotricidad y yoga" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Terapias psicopedagógicas y escuela para padres" } }
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div style="padding:2rem;font-family:sans-serif">
+        <h1>Nido Terra Encantada</h1>
+        <p>Un espacio para aprender, crecer y divertirse. Av. Javier Prado Este 5977, La Molina. Lun–Vie 8:00–17:00. WhatsApp 993 726 482.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
