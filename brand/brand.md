@@ -1,0 +1,84 @@
+# Nido Terra Encantada
+
+**Categoría:** Educación — Nido / Educación Inicial privada – estimulación temprana, guardería, inicial 3-5 años  
+**Ciudad / distrito:** Lima / La Molina  
+_Investigación: 06-oct-2026. Todo lo que no está marcado como **NO VERIFICADO** proviene de las fuentes citadas._
+
+## Datos de contacto y ubicación
+- **Dirección:** Av. Javier Prado Este 5977, La Molina, Lima (ficha Google/Exa, afiches 2026 y FB)
+- **Coordenadas:** -12.070647, -76.955672 (Exa Places)
+- **Teléfono(s):** +51 965 140 046 (ficha Google/Exa y texto de su web), +51 993 726 482 ('INFO' en afiche Matrícula 2026 y botón WhatsApp de su FB), 987 817 612 (registro MINEDU/ESCALE), 949 728 605 (enlace tel: en su web)
+- **WhatsApp:** +51 993 726 482 (botón WhatsApp de FB y afiche 2026). OJO: el enlace de WhatsApp de su web está roto (wa.me/5196514004, falta un dígito).
+- **Email:** terraencantada1@gmail.com (directorios/MINEDU)
+- **Horario:** Lun–Vie 8:00–17:00 (ficha Google vía Exa)
+- **Google Maps (enlace de búsqueda construido con nombre+dirección verificados, no es la URL canónica de la ficha):** https://www.google.com/maps/search/?api=1&query=Nido+Terra+Encantada%2C+Av.+Javier+Prado+Este+5977%2C+La+Molina%2C+Lima
+- **Nota ficha Google:** Ficha con 31 reseñas y 4.9★ según Exa; las reseñas visibles en Exa son de nov–dic 2018 (posible campaña de reseñas de esa época).
+
+## Presencia digital actual
+- **Web actual:** https://terraencantada620892311.wordpress.com/
+- **Estado de la web:** Página gratuita de WordPress.com (subdominio numérico, con barra/pie 'Diseña un sitio como este con WordPress.com'), una sola página con texto de FB pegado ('🌈MATRÍCULA ABIERTA 2026🌈'), afiches como imágenes y formulario genérico. Errores visibles: dice 'Av Javier Prado OESTE 5977' (es Este), celular '96514004' (8 dígitos) y enlaces wa.me rotos. Sin dominio propio, sin galería, sin propuesta pedagógica desarrollada.
+- **Facebook:** https://www.facebook.com/nido.terra.encantada/ ('Terra Encantada | La Molina', 4.991 seguidores, 744 check-ins; bio: 'NIDO - ESTIMULACIÓN TEMPRANA - TERAPIAS PSICOPEDAGÓGICAS en la Molina con 21 años de…'; video publicado el 6-feb-2026)
+- **Instagram:** No encontrado
+
+## Reputación
+- **Rating Google:** 4.9 ★ — **31 reseñas**
+- **Fuente:** Exa Places (espejo de datos de Google Maps). Confirmar cifra en vivo en Google Maps antes de usarla en el pitch. Reseñas visibles: nov–dic 2018.
+- **Reseñas reales (citas cortas):**
+  - “Terra es una familia. Misses con mucha paciencia, creativas y se preocupan por la necesidad de cada niño.” — _Google vía Exa Places, nov 2018_
+  - “la educación es muy personalizada y orientada en el desarrollo emocional y de habilidades del niño” — _Google vía Exa Places, nov 2018_
+  - “Me encanta el orden del nido y la amabilidad de las misses.” — _Google vía Exa Places, nov 2018_
+- **Ojo / matiz:** No se vieron reseñas negativas; el problema es que las reseñas visibles son antiguas (2018).
+
+## Servicios / programas
+- Estimulación temprana
+- Pre-escolar 2 años
+- Inicial 3, 4 y 5 años
+- Guardería
+- Inglés intensivo
+- Talleres: karate, psicomotricidad, yoga para niños
+- Terapias psicopedagógicas / departamento psicológico permanente y escuela para padres
+- Metodología lúdica, vivencial y experimental; amplias áreas verdes y aulas iluminadas
+- Alquiler de local para fiestas infantiles
+- (Programas tomados del afiche 'Matrícula 2026' y del texto de su web)
+
+**Precios:** Pensión S/ 700 (registro MINEDU/ESCALE; confirmar). MINEDU (cód. modular 1358944): 31 alumnos, 5 docentes.
+
+## Historia / fundación
+Su fanpage indica '21 años' de trayectoria en La Molina (se presenta como 'Centro de Apoyo en el Desarrollo del Niño' / 'Centro de desarrollo integral del niño en la edad temprana'). Registro MINEDU cód. modular 1358944. Año exacto de fundación no confirmado.
+
+**Slogan / frases propias:** 'Un espacio para aprender, crecer y divertirse' · 'Nuestro trabajo empieza contigo!' · 'Terra Encantada es un espacio ideal para aprender, crecer y divertirse; en donde respetan, retan y acompañan con mucho amor a los niños' (afiches y web)
+
+## Identidad de marca
+- **Logo oficial:** `brand/logo-facebook.jpg` (604×453px) — fuente: og:image de la fanpage oficial (lookaside.fbsbx.com media_id=100055548260082)
+- **Calidad:** MEDIA: 604×453 px JPG con fondo blanco; versión 'Centro de Apoyo en el Desarrollo del Niño'. Ilustración hecha a mano (sol, casita, flor, mariposa, césped) — difícil de vectorizar exacto; para el demo usar tal cual o redibujar simplificado. Los afiches 2026 muestran una versión más nueva con el tagline 'Centro de desarrollo integral del niño en la edad temprana'.
+- **Paleta (hex extraídos con PIL — cuantización MEDIANCUT + muestreo de píxeles):**
+  - `#2D5EC4` — azul royal del círculo central (principal)
+  - `#96DB6A` — verde césped
+  - `#F0E31D` — amarillo sol / letras 'encantada'
+  - `#E59D2A` — naranja de 'Terra'
+  - `#6A479E` — morado del tagline y contornos
+  - `#D0E9B1` — verde claro (fondos suaves)
+- **Descripción de la paleta:** Paleta infantil primaria y alegre: azul royal + verde + amarillo + naranja + morado. Sus afiches 2026 usan fondos naranja, verde limón y azul con círculos de fotos.
+- **Tipografía observada:** Logo con letras manuscritas tipo tiza/plumón, irregulares (no identificada); tagline en script infantil morado. Afiches usan sans redondeada (estilo 'Fredoka/Baloo'). Sugerencia demo: Baloo 2 o Fredoka para títulos + Nunito para texto.
+- **Estilo visual:** Infantil, dibujado a mano, colores saturados, fotos de niños en aulas y jardín en marcos circulares, gotas/formas orgánicas.
+- **Tono de voz:** Cálido, maternal y entusiasta, con muchos emojis ('¡Quedan pocas vacantes! 🤩', 'Ven a conocernos'), tuteo a los padres.
+
+## Fotos reales disponibles
+- brand/fotos/549745839_1414491807079081_5996798361038450410_n.png — banner 'Matrícula 2026' con fotos reales de niños en el jardín y patio (960×383, de su web, subido nov-2025)
+- brand/fotos/promo-face-02-orange-vertical2.png — afiche Matrícula 2026 con foto real de aula y misses (683×1024)
+- brand/fotos/promo-face-04-verde-limon.png — 'Inicial 3, 4 y 5 años' con fotos reales (1508×1123)
+- brand/fotos/promo-face-07-azul-.png — 'Talleres todo el año: karate y psicomotricidad' con fotos reales (1508×1123)
+- brand/fotos/terra_matriculas_2020wordpress_1067-w-2.png — afiche Matrícula 2020 (1600×1067; muestra teléfonos antiguos 993 726 482 y 349-7132)
+- Nota: las fotos vienen incrustadas en afiches; para el demo recortar los círculos o pedir los originales.
+
+## ¿Por qué es buen candidato?
+Nido con 21 años, excelente reputación (4.9★/31) y matrícula 2026 abierta, pero su 'web' es una página gratis de WordPress.com con dirección y teléfono equivocados y WhatsApp roto: cada familia que intenta escribir desde la web pierde el contacto. Encaja perfecto en 'web muy simple/desactualizada'. Es pequeño (≈31 alumnos, S/ 700), así que un sitio sencillo y económico (landing + WhatsApp + galería) es una venta realista.
+
+## Qué debe enfatizar el rediseño (demo)
+Botón de WhatsApp correcto y visible, matrícula/vacantes, programas por edad (estimulación, 2 años, 3-5 años, guardería), áreas verdes y talleres (yoga, karate, psicomotricidad), equipo de 'misses' y psicología, testimonios reales, mapa de Javier Prado Este 5977.
+
+## ⚠️ NO VERIFICADO / pendiente de confirmar
+- Rating 4.9/31 (Exa): confirmar en vivo; reseñas visibles son de 2018.
+- Cuál es el WhatsApp/teléfono vigente: 965 140 046 (Google/web), 993 726 482 (afiche 2026/FB), 987 817 612 (MINEDU), 949 728 605 (tel: en la web).
+- Año de fundación (solo '21 años' en FB). Pensión S/ 700 y 31 alumnos (MINEDU vía terceros).
+- Autores de las reseñas no disponibles en la fuente.
