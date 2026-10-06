@@ -135,8 +135,7 @@ export default function WorldSection({ lite, reduced, webgl, started, onSceneRea
         {!reduced && (
           <ol className="absolute right-4 top-1/2 hidden -translate-y-1/2 flex-col gap-3 rounded-full bg-white/70 px-2 py-3 backdrop-blur md:flex" aria-hidden="true">
             {['Inicio', ...STEPS.map((s) => s.verbo)].map((s, i) => (
-              <li key={s} className="relative flex items-center justify-center">
-                <span className={`absolute right-9 rounded-full bg-white px-3 py-1 font-display text-sm font-bold text-terra shadow transition-all duration-300 ${step === i ? 'opacity-100' : 'opacity-0'}`}>{s}</span>
+              <li key={s} title={s} className="relative flex items-center justify-center">
                 <span className={`block rounded-full transition-all duration-300 ${step === i ? 'h-3.5 w-3.5 bg-naranja' : 'h-2.5 w-2.5 bg-terra/30'}`} />
               </li>
             ))}
@@ -213,7 +212,10 @@ export default function WorldSection({ lite, reduced, webgl, started, onSceneRea
 
         {/* PASOS DEL STORYTELLING */}
         {STEPS.map((s) => (
-          <div key={s.n} className={`flex min-h-[100svh] items-start px-5 pt-24 sm:px-8 md:items-center md:pt-0 lg:px-16 ${s.side === 'right' ? 'md:justify-end' : 'md:justify-start'}`}>
+          <div
+            key={s.n}
+            className={`flex px-5 sm:px-8 lg:px-16 ${reduced ? 'py-6' : 'min-h-[100svh] items-start pt-24 md:items-center md:pt-0'} ${s.side === 'right' ? 'md:justify-end' : 'md:justify-start'}`}
+          >
             <article data-side={s.side} className="story-card w-full max-w-[30rem] rounded-[2rem] bg-white/88 p-6 shadow-[0_20px_60px_rgba(28,37,89,.14)] backdrop-blur-md sm:p-8 md:max-w-[38%]">
               <p className="flex items-baseline gap-3">
                 <span className="font-display text-base font-bold text-morado">{s.n}</span>

@@ -17,7 +17,7 @@ type Key = { x: number; y: number; s: number; ry: number }
 const DESKTOP: Key[] = [
   { x: 2.5, y: -1.55, s: 1.25, ry: -STATIONS.nido },
   { x: -2.45, y: -1.45, s: 1.25, ry: -STATIONS.aprender },
-  { x: 2.7, y: -1.45, s: 1.25, ry: -STATIONS.crecer },
+  { x: 2.7, y: -1.8, s: 1.2, ry: -STATIONS.crecer },
   { x: -2.45, y: -1.45, s: 1.25, ry: -STATIONS.divertirse },
 ]
 const MOBILE: Key[] = [

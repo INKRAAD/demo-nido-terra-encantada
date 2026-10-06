@@ -45,7 +45,7 @@ export default function Nav() {
           scrolled ? 'bg-white/90 shadow-[0_10px_30px_rgba(28,37,89,.12)] backdrop-blur-md' : 'bg-white/0'
         }`}
       >
-        <a href="#inicio" onClick={go('inicio')} className="shrink-0 rounded-2xl" aria-label="Terra Encantada, ir al inicio">
+        <a href="#inicio" onClick={go('inicio')} className={`shrink-0 rounded-2xl transition-colors ${open ? 'bg-white px-2 py-1' : ''}`} aria-label="Terra Encantada, ir al inicio">
           <img src="/logo-terra-encantada.svg" alt="Terra Encantada · Centro de Apoyo en el Desarrollo del Niño" className="h-12 w-auto sm:h-14 lg:h-16" width={84} height={62} />
         </a>
         <ul className="hidden items-center gap-1 lg:flex">
